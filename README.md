@@ -14,8 +14,10 @@ Check out the live version of the application deployed on Vercel:
 **[➡️ View Live Demo]([your-vercel-link-here])**
 
 ## 📸 Preview
+<img width="2560" height="3679" alt="screencapture-localhost-5173-2025-10-21-01_08_55" src="https://github.com/user-attachments/assets/2053ba39-f7ef-48e0-ae3d-0736e605c80f" />
 
-![Project Preview]([your-preview-image-link-here])
+<img width="2560" height="1483" alt="screencapture-localhost-5173-movie-603-2025-10-21-01_09_37" src="https://github.com/user-attachments/assets/7c87afda-907c-488e-b73c-10c42abde25f" />
+
 
 *A screenshot of the main page showcasing the movie grid and the search functionality.*
 
@@ -38,29 +40,20 @@ Check out the live version of the application deployed on Vercel:
 - **Fetch API:** Used `async/await` for making asynchronous requests to the TMDb API.
 - **CSS3:** For custom styling, layout (Grid), and creating a responsive, dark-themed interface.
 - **Environment Variables:** To securely store and use the API key.
-- **Intl.DateTimeFormat:** A built-in JavaScript API for formatting dates in a user-friendly way.
 
 ## ⚙️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/farukozgu/tmdb-react-project.git](https://github.com/farukozgu/tmdb-react-project.git)
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd your-repo-name
+    cd tmdb-react-project
     ```
 3.  **Install NPM packages:**
     ```sh
