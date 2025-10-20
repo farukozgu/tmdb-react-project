@@ -1,0 +1,142 @@
+.movie-detail-container {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.backdrop-image {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.backdrop-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #141414 10%, transparent 90%);
+}
+
+.movie-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem 2rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 991px) {
+    .movie-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .movie-info h1 {
+        text-align: left;
+    }
+}
+
+.movie-poster {
+    flex-shrink: 0;
+    width: 250px;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .movie-poster {
+        width: 300px;
+        margin-right: 3rem;
+        margin-bottom: 0;
+    }
+}
+
+.movie-poster img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.movie-info {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .movie-info {
+        text-align: left;
+    }
+}
+
+.movie-info h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system;
+    font-weight: 500;
+}
+
+.movie-info .tagline {
+    font-style: italic;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+.movie-info .movie-rating {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .movie-info .movie-rating {
+        justify-content: flex-start;
+    }
+}
+
+
+.movie-info .movie-rating span {
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system;
+}
+
+.movie-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f5c518;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system;
+}
+
+.movie-info p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f5c518;
+    color: #141414;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system;
+}
+
+.back-button:hover {
+    background-color: #e0b410;
+}
