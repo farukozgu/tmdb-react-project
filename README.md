@@ -11,7 +11,7 @@ A sleek and responsive single-page application built with React.js that allows u
 
 Check out the live version of the application deployed on Netlify:
 
-**[➡️ View Live Demo]([https://tmdb-react-project.netlify.app/])**
+**[➡️ View Live Demo](https://tmdb-react-project.netlify.app/)**
 
 ## 📸 Preview
 <img width="2560" height="3679" alt="screencapture-localhost-5173-2025-10-21-01_08_55" src="https://github.com/user-attachments/assets/2053ba39-f7ef-48e0-ae3d-0736e605c80f" />
